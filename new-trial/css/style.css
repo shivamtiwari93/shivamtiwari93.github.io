@@ -81,10 +81,10 @@ h2 {
     box-sizing: content-box;
 }
 #about-title {
-    background-color:black;
+    background-color:#ffc600;
 }
 #blog-title {
-    background:#484746;
+    background:#ffc600;
 }
 #contact-title {
     background-color:#ffc600;
@@ -196,7 +196,7 @@ h2 {
 	background-color: #FFFFFF;
 	border-radius: 100%;
 	color: #FF6000;
-	font-size: 43px;
+	font-size: 36px;
 	font-weight: normal;
 	height: 220px;
 	left: 50%;
@@ -251,7 +251,7 @@ h2 {
 	color: #ffffff;
 }
 .cbp-af-header.cbp-af-header-shrink h1 {
-    font-size: 23px;
+    font-size: 20px;
 	border-radius: 55px;
 	color: #FF6000;
 	font-weight: normal;
@@ -282,10 +282,10 @@ a#pull {
 
 /* ============== Parallax image backgounds ==================== */
 .js-background-1 {
-    background: transparent url('../img/about-bg.png') 10% 150px no-repeat;
+    background: transparent url('../img/about-bg.png') top center repeat;
 }
 .js-background-2 {
-    background: transparent url('../img/blog-bg.png') 10% 150px no-repeat;
+    background: transparent url('../img/blog-bg.png') top center repeat;
 }
 .js-background-3 {
     background: transparent url('../img/contact-bg.png') top center repeat;
