@@ -18,8 +18,9 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "www.scrapbotics.com/shivamtiwari93/mail/contact_me.php",
+                url: "http://www.scrapbotics.com/shivamtiwari93/mail/contact_me.php",
                 type: "POST",
+				crossDomain: true,
                 data: {
                     name: name,
                     phone: phone,
