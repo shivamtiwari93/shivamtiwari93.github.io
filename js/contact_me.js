@@ -34,7 +34,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>Woosh! Your message has been sent. </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
@@ -47,7 +47,7 @@ $(function() {
                     $('#error > .alert-error').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#error > .alert-error')
-                        .append("<strong>Failure in sending message. </strong>");
+                        .append("<strong>Dayum! Failure in sending message. </strong>");
                     $('#error > .alert-error')
                         .append('</div>');
 
