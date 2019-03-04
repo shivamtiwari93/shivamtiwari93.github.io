@@ -19,7 +19,7 @@ $(function() {
             }
             $.ajax({
                 url: "https://formspree.io/iam@shivamtiwari93.in",
-                type: "POST",
+                method: "POST",
 				crossDomain: true,
                 data: {
                     name: name,
@@ -27,6 +27,9 @@ $(function() {
                     email: email,
                     message: message
                 },
+				
+				dataType: "json");
+				
                 cache: false,
                 success: function() {
                     // Success message
