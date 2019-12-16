@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.kickresume.com	TRUE	/	FALSE	1999999999	csrftoken	rGiXj4Jax8sdC4BTbQULSk5jphiGjg4wIxqfMGDQk8qNEQ9PiPIPDJ6i9FxGiMG3
+www.kickresume.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+www.kickresume.com	TRUE	/	FALSE	1999999999	safari_fixed	true
+
