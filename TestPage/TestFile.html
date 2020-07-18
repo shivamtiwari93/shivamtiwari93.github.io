@@ -26,6 +26,18 @@
 			ga('create', 'UA-49834500-1', 'auto');
 			ga('send', 'pageview');
 			</script>
+			
+			<script>
+						var dimensionValue = 'bob';
+						ga('set', 'dimension1', dimensionValue); , 
+						
+						var dimensionValue = 'foobar';
+						ga('set', 'dimension2', dimensionValue); , 
+						
+						var dimensionValue = 'boom boom pow';
+						ga('set', 'dimension3', dimensionValue);
+			</script>
+			
 <!-- End Google Analytics -->
 		
 	</head>
@@ -47,16 +59,7 @@
 		Test Button
 	</p>
 	
-	<button onClick = " var dimensionValue = 'bob';
-						ga('set', 'dimension1', dimensionValue); , 
-						
-						var dimensionValue = 'foobar';
-						ga('set', 'dimension2', dimensionValue); , 
-						
-						var dimensionValue = 'boom boom pow';
-						ga('set', 'dimension3', dimensionValue); , 
-
-						ga('send', 'event', 'Button 2', 'Click 2', 'Example 2', {
+	<button onClick = "ga('send', 'event', 'Button 2', 'Click 2', 'Example 2', {
 						  'dimension1': 'bob',
 						  'dimension2': 'foobar',
 						  'dimension3': 'boom boom pow'
