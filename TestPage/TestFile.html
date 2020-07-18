@@ -23,7 +23,13 @@
 		Test Buttons
 	</p>
 	
-	<button onclick = "ga('send', 'event', 'Button 1', 'Click', 'Example 1');">
+	<button onclick = "ga('send', 'event', 'Button 1', 'Click', 'Example 1');, 
+	
+					   gtag('event', 'Click-A', {
+							'event_category' : 'Button 1-A',
+							'event_label' : 'Example 1-A'
+					   });">
+					   
 		Trigger GA event [Default]
 	</button>
 	
