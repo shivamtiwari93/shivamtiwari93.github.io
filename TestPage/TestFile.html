@@ -35,17 +35,6 @@
 		Test Buttons
 	</p>
 	
-	<!--
-	<button onClick = "ga('send', 'event', 'Button 1', 'Click', 'Example 1');, 
-	
-					   gtag('event', 'Click-A', {
-							'event_category' : 'Button 1-A',
-							'event_label' : 'Example 1-A'
-					   });">
-					   
-		Trigger GA event [Default]
-	</button>
-	-->
 	<button onClick = "gtag('event', 'Click-A', {
 						'event_category': 'Button 1-A',
 						'event_label': 'Example 1-A',
@@ -58,22 +47,11 @@
 		Test Button
 	</p>
 	
-	<button onClick = "
-						
-						gtag('config', 'UA-49834500-1', {
-							'custom_map': {	'dimension1': 'value1',
-											'dimension2': 'value2',
-											'dimension3': 'value3'}
-						}), 
-						
-						gtag('event', 'Click-A 2', {
-						'event_category': 'Button 1-A 2',
-						'event_label': 'Example 1-A 2',
-						'value': '0',
-						{'value1':'1','value2':'2','value3':'3'}
-						
+	<button onClick = "ga('send', 'event', 'Button 2', 'Click 2', 'Example 2', {
+						  'dimension1': 'bob',
+						  'dimension2': 'foobar',
+						  'dimension3': 'boom boom pow'
 						});">
-						
 		Trigger GA event [Custom Dimensions]
 	</button>
 	
