@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>
+			Test Page Bro
+		</title>
+		
+		<!-- GA tracking begins -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49834500-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-49834500-1');
+		</script>
+		<!-- GA tracking ends -->
+		
+	</head>
+	
+	<body>
+	<p>
+		Test Buttons
+	</p>
+	
+	<button onclick = "ga('send', 'event', 'Button 1', 'Click', 'Example 1');">
+		Trigger GA event [Default]
+	</button>
+	
+	<p>
+	
+	</p>
+	
+	<button>
+		Trigger GA event [Custom Dimensions]
+	</button>
+	
+	<p>
+		Test Button
+	</p>
+	</body>
+</html>
