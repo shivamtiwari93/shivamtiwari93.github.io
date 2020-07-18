@@ -47,6 +47,26 @@
 	</p>
 	
 	<button onClick = "
+						
+						gtag('config', 'UA-49834500-1', {
+							'custom_map': {	'dimension1': 'value1',
+											'dimension2': 'value2',
+											'dimension3': 'value3'}
+						}), 
+						
+						gtag('event', 'Click-A 2', {
+						'event_category': 'Button 1-A 2',
+						'event_label': 'Example 1-A 2',
+						'value': '0',
+						{'value1':'1','value2':'2','value3':'3'}
+						
+						});">
+						
+						<!--
+						gtag( 'set' , {'dimension1' : 'yxz' , 'dimension2' : 'abc' , 'dimension3' : '123' , 'dimensions4 : 'boom boom pow'} );
+						gtag('config', 'UA-49834500-1');
+						-->
+	<!--
 	
 		ga('send', 'event', 'Button 2', 'Click', 'Example 2', {
 			'dimension1': 'bob',
@@ -55,6 +75,7 @@
 		});
 	
 	">
+	-->
 		Trigger GA event [Custom Dimensions]
 	</button>
 	
