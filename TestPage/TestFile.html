@@ -27,6 +27,7 @@
 			ga('send', 'pageview');
 			</script>
 			
+			<!--
 			<script>
 						var dimensionValue = 'bob';
 						ga('set', 'dimension1', dimensionValue); , 
@@ -37,6 +38,7 @@
 						var dimensionValue = 'boom boom pow';
 						ga('set', 'dimension3', dimensionValue);
 			</script>
+			-->
 			
 <!-- End Google Analytics -->
 		
@@ -62,7 +64,8 @@
 	<button onClick = "ga('send', 'event', 'Button 2', 'Click 2', 'Example 2', {
 						  'dimension1': 'bob',
 						  'dimension2': 'foobar',
-						  'dimension3': 'boom boom pow'
+						  'dimension3': 'boom boom pow',
+						  'metric1':4000
 						});">
 		Trigger GA event [Custom Dimensions]
 	</button>
